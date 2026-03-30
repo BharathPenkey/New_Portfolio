@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body, #root {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #1B2A30 0%,
+    #305853 35%,
+    #511B18 70%,
+    #9E2C21 100%
+  );
+  color: #f5f5f5;
+}
+
+ @keyframes scrollX {
+  0% {
+    transform: translateX(0);
+  }
+
+  90% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scrollX 22s linear infinite;
+}
