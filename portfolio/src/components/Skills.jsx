@@ -10,19 +10,23 @@ import {
 } from "react-icons/si";
 
 const skills = [
+// frontend
+    { name: "TypeScript", icon: <SiTypescript /> },
   { name: "HTML", icon: <FaHtml5 /> },
   { name: "CSS", icon: <FaCss3Alt /> },
   { name: "JavaScript", icon: <FaJs /> },
   { name: "React", icon: <FaReact /> },
-  { name: "Node.js", icon: <FaNodeJs /> },
-  { name: "MongoDB", icon: <SiMongodb /> },
-  { name: "Express.js", icon: <SiExpress /> },
   { name: "Tailwind", icon: <SiTailwindcss /> },
+  // backend 
+  { name: "Node.js", icon: <FaNodeJs /> },
+  { name: "Express.js", icon: <SiExpress /> },
+  // databases
+  { name: "MongoDB", icon: <SiMongodb /> },
+  { name: "PostgreSQL", icon: <SiPostgresql /> },
+  { name: "SQL", icon: <SiMysql /> },
+  //tools
   { name: "Git", icon: <SiGit /> },
   { name: "Python", icon: <SiPython /> },
-  { name: "TypeScript", icon: <SiTypescript /> },
-  { name: "PostgreSQL", icon: <SiPostgresql /> },
-  { name: "SQL", icon: <SiMysql /> }
 ];
 
 export default function Skills() {
