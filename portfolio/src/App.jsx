@@ -1,13 +1,21 @@
 import React from 'react';
 import './index.css'
+import Navbar from './components/Navbar';
+import About from './components/Stats';
+import Hero from './components/Hero';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold text-green-500">
-        Tailwind is working 🚀
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      {/* <About />
+      <Experience />
+      <Skills/> */}
+
+    </>
   )
 }
 
