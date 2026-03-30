@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Stats from './components/Stats';
+import About from './components/About';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Stats />
+      <About />
       {/*
       <Experience />
       <Skills/> */}
