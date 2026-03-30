@@ -22,6 +22,9 @@ export default function Navbar() {
                         About
                     </a>
 
+                    <a href="#skills" className="hover:text-[#B06821] transition">
+                        Skills
+                    </a>
                     <a href="#experience" className="hover:text-[#9E2C21] transition">
                         Experience
                     </a>
@@ -29,9 +32,6 @@ export default function Navbar() {
                         Projects
                     </a>
 
-                    <a href="#skills" className="hover:text-[#B06821] transition">
-                        Skills
-                    </a>
 
                     <a href="#contact" className="hover:text-[#B06821] transition">
                         Contact
