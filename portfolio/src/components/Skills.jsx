@@ -1,10 +1,9 @@
 
 import {
-  FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, SiPython,
-  SiTypescript,
-  SiPostgresql,
-  SiMysql
+  FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs,
+
 } from "react-icons/fa";
+import { SiMysql ,  SiPostgresql , SiPython ,  SiTypescript} from "react-icons/si";
 
 import {
   SiMongodb, SiExpress, SiTailwindcss, SiGit
@@ -30,7 +29,7 @@ export default function Skills() {
   return (
     <section id="skills" className="max-w-6xl mx-auto px-6 py-14 overflow-hidden">
 
-      {/* 🔥 TITLE */}
+
       <h2 className="text-3xl font-semibold mb-8 
         bg-gradient-to-r from-[#B06821] via-[#9E2C21] to-[#305853] 
         bg-clip-text text-transparent">
