@@ -4,7 +4,7 @@ import insta from "../assets/insta.png"
 import bookstore from "../assets/bookstore.png"
 const projects = [
     {
-        title: "Literacy Hub Application",
+        title: "Book Store Application",
         desc: "MERN stack application ",
         img: bookstore,
         tech: ["React.js", "Node.js", "MongoDB", "Cloudinary", "Tailwind", "Express.js"],

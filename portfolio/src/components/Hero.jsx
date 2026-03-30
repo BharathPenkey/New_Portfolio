@@ -51,7 +51,7 @@ export default function Hero() {
                     <div className="mt-8 flex flex-wrap gap-4">
 
                         <a
-                            //   href="/penkeybharath.pdf"   // 👉 place resume in public folder
+                              href="/Penkey_BharathCV.pdf"   //  resumefrom public folder
                             download
                             className="group px-6 py-3 rounded-xl 
               bg-gradient-to-r from-[#9E2C21] to-[#B06821] 
