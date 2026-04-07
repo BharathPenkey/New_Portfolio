@@ -1,5 +1,6 @@
 import profile from "../assets/profileIcon.png";
 
+
 import { motion } from "framer-motion";
 
 
