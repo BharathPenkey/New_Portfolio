@@ -31,3 +31,19 @@ body, #root {
 .animate-scroll {
   animation: scrollX 22s linear infinite;
 }
+
+@keyframes letterFade {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-letter {
+  opacity: 0; /* start hidden */
+  animation: letterFade 0.5s ease forwards;
+}

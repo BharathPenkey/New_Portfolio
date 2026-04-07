@@ -2,10 +2,11 @@ import car from "../assets/car.png"
 import threed from "../assets/3d.png"
 import insta from "../assets/insta.png"
 import bookstore from "../assets/bookstore.png"
+
 const projects = [
     {
-        title: "Literacy Hub Application",
-        desc: "MERN stack application ",
+        title: "Book Store Application",
+        desc: "A full-stack MERN library platform where users can search, explore, and manage books seamlessly. Users can add books to a personalized wishlist and access them anytime, while also contributing by adding or updating book entries. Admins have exclusive control to delete content. The application includes performance optimizations like debouncing and throttling for efficient search, along with pagination for smooth data handling.",
         img: bookstore,
         tech: ["React.js", "Node.js", "MongoDB", "Cloudinary", "Tailwind", "Express.js"],
         codeLink: "https://github.com/BharathPenkey/Book_Store_Application",
@@ -14,44 +15,31 @@ const projects = [
 
     {
         title: "3D Environment",
-        desc: "Immersive 3D experience using Three.js and React",
+        desc: "An immersive 3D web experience built using Three.js and React, featuring interactive environments and visually rich scenes. Designed to explore real-time rendering, animations, and 3D model integration using Blender.",
         img: threed,
-        tech: ["React", "Three.js", "Blender"],
+        tech: ["React.js", "Three.js", "Blender","React Three Fiber"],
         codeLink: "https://github.com/BharathPenkey/3D-Environment",
         liveLink: "https://64cf6c832be4dd36e0df54e9--exquisite-snickerdoodle-a0c1d0.netlify.app/",
     },
+
     {
         title: "Insta Clone",
-        desc: "Social media app with posts, likes, and Cloudinary uploads",
+        desc: "A social media application that allows users to create posts, like content, and upload images using Cloudinary. Built with a responsive UI and real-time interactions, mimicking core features of modern social platforms.",
         img: insta,
         tech: ["React", "Node.js", "Cloudinary"],
         codeLink: "https://github.com/BharathPenkey/insta_clone",
         liveLink: "https://insta-clone-app-einr.onrender.com",
-
     },
+
     {
         title: "Car Rental App",
-        desc: "MERN stack application with authentication & booking system",
+        desc: "A MERN stack car rental platform featuring dual user flows for admins and customers. Users can browse available cars, apply filters based on preferences and distance, and book vehicles . Admins manage the platform by adding, updating, and deleting car listings. The system includes authentication and a streamlined booking workflow for a smooth user experience.",
         img: car,
         tech: ["React", "Node.js", "MongoDB"],
         codeLink: "https://github.com/BharathPenkey/car-rental-application",
         liveLink: "https://bookstore-application-mcsc.onrender.com/",
-
     }
-    // {
-    //   title: "3D Environment",
-    //   desc: "Immersive 3D experience using Three.js and React",
-    //   img: "https://placehold.co/400",
-    //   tech: ["React", "Three.js"]
-    // },
-    // {
-    //   title: "Insta Clone",
-    //   desc: "Social media app with posts, likes, and Cloudinary uploads",
-    //   img: "https://placehold.co/400",
-    //   tech: ["React", "Node.js", "Cloudinary"]
-    // }
 ];
-
 export default function Projects() {
     return (
         <section id="projects" className="max-w-7xl mx-auto px-6 py-20 relative">
