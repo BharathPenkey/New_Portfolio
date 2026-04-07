@@ -1,6 +1,7 @@
 
 import {
     FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs,
+    FaCode,
 
 } from "react-icons/fa";
 import { SiMysql, SiPostgresql, SiPython, SiTypescript, SiNextdotjs } from "react-icons/si";
@@ -10,12 +11,13 @@ import {
 } from "react-icons/si";
 
 const skills = [
+    { name: "Data Structures & Algorithms", icon: <FaCode /> },
     // frontend
     { name: "HTML", icon: <FaHtml5 /> },
     { name: "CSS", icon: <FaCss3Alt /> },
     { name: "JavaScript", icon: <FaJs /> },
     { name: "TypeScript", icon: <SiTypescript /> },
-    { name: "React", icon: <FaReact /> },
+    { name: "React.js", icon: <FaReact /> },
     { name: "Next.js", icon: <SiNextdotjs /> },
     { name: "Tailwind", icon: <SiTailwindcss /> },
     // backend 
