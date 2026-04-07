@@ -1,7 +1,7 @@
 import profile from "../assets/profileIcon.png";
-// import bharath from "../assets/bharath.png";
+
 import { motion } from "framer-motion";
-import resume from "../../public/penkeybharath.pdf"
+
 
 export default function Hero() {
     return (
